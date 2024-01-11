@@ -83,7 +83,6 @@ function App() {
                 <input
                   className="w-full px-2 py-1 rounded-md"
                   type="text"
-                  {...register("confirmPassword")}
                 />
               </div>
             )}
@@ -93,7 +92,7 @@ function App() {
           <button
             type="submit"
             className="bg-blue-600 px-4 py-2 rounded-md text-white"
-            disabled={true}
+            // disabled={true}
           >
             Save
           </button>
