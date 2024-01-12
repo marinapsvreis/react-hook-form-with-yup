@@ -98,7 +98,7 @@ function App() {
         <div className="flex gap-2 justify-end px-6">
           <button
             type="submit"
-            className="bg-blue-600 px-4 py-2 rounded-md text-white disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-blue-600 px-4 py-2 rounded-md text-white disabled:opacity-50 disabled:cursor-not-allowed hover:enabled:bg-blue-700 transition"
             disabled={(errors?.name || errors?.email || errors?.login || errors?.password || errors?.confirmPassword || errors?.test) ? true : false}
           >
             Save
